@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8666125995107817086
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_01_{-8666125995107817086}
+  m_AudioClip: {fileID: 8300000, guid: d993338fd749e6e4b96868c622642b39, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3510119068605096915
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_04_{-3510119068605096915}
+  m_AudioClip: {fileID: 8300000, guid: c3cc32631e0108a43a4f5b67f085f438, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1393130356533791143
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_02_{1393130356533791143}
+  m_AudioClip: {fileID: 8300000, guid: 11f5bd658c7bbcb4c80ec798c6d27ecb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1575509454470147395
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sfx_ui_level_start_{1575509454470147395}
+  m_AudioClip: {fileID: 8300000, guid: c50ae2dc0c67f9240930549ec2626447, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &5400748983561134688
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_menu_button_03_{5400748983561134688}
+  m_AudioClip: {fileID: 8300000, guid: 3fa6f2dcdb0ec4544b5698e3f345edff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Talking pink
+  m_Volume: 0
+  m_Pitch: 551
+  m_AutomaticTriggerTime: 0.2
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -587.234, y: 1200}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 1575509454470147395}
+  - {fileID: -8666125995107817086}
+  - {fileID: 1393130356533791143}
+  - {fileID: 5400748983561134688}
+  - {fileID: -3510119068605096915}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
