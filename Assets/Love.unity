@@ -955,10 +955,9 @@ MonoBehaviour:
   textBox: {fileID: 1227482668}
   nextButton: {fileID: 493705567}
   dialogue:
-  - Hey there
-  - Hey there 2
-  - Hey there 3
-  - 'STOP CLICKING '
+  - 'Mr. Pink: Hey there "Mr. Yellow"!'
+  - 'Mr. Pink: Look at the bounce pad up ahead I made'
+  - 'Mr. Pink: I have also built a wind effector for you to try out'
   onStartDialogue:
     m_PersistentCalls:
       m_Calls:
